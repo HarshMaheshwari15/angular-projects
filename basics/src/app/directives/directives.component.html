@@ -1,0 +1,8 @@
+<p *ngIf = "showPara">directives works!</p>
+<!-- important -->
+<button (click)="showPara=false">Hide</button> 
+<button (click)="showPara=true">Show</button>
+<ul>
+    <!-- For-Loop -->
+    <li *ngFor = "let n of collection; let i = index">{{i}}</li>
+</ul>
